@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lilita+One&family=Rubik+Doodle+Triangles&family=Slabo+27px&display=swap");
+/* 
+font-family: 'Bree Serif', serif;
+font-family: 'Lilita One', sans-serif;
+font-family: 'Rubik Doodle Triangles', system-ui;
+font-family: 'Slabo 27px', serif; */
+.login-page {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    margin-top: 20px;
+}
+.login-page .label-text {
+    font-family: "Bree Serif", serif;
+}
+.login-page .main-header {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 600;
+}
+a {
+    text-decoration: none;
+}
+input {
+    font-family: "Bree Serif", serif;
+}
+input::placeholder {
+    color: rgb(157, 151, 151);
+}
+.table-container {
+    margin-top: 20px;
+}
+.table-container th {
+    font-family: "Bree Serif", serif;
+}
+.table-container td {
+    font-family: "Slabo 27px", serif;
+}
