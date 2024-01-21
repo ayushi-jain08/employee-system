@@ -80,9 +80,9 @@
                             <td colspan="5">Records Not Found</td>
                         </tr>
                     @endif
-
                 </tbody>
             </table>
+
         </div>
 
         {{-- ======================MODAL FOR REMARK==================== --}}
