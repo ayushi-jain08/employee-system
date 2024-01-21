@@ -124,9 +124,8 @@
                         $('#employeeForm')[0].reset();
                         // Enable the submit button
                         $("button[type=submit]").prop('disabled', false);
-                        $('.error').removeClass('is-invalid').html("")
-                        $("input[type=text], select").removeClass('is-invalid')
-                        $('#message-container').html('<div class="alert alert-success">🎉🎉 You are Registration successfully!!</div>');
+                        $(".is-invalid").removeClass('is-invalid');
+                        $('#message-container').html('<div class="alert alert-success">🎉🎉 You are Registered successfully!!</div>');
 
                     },
 
@@ -154,6 +153,7 @@
                     }
                 });
             })
+
         })
 
     </script>
